@@ -8,6 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="MasumotoAmika",
     author_email="s2222094@stu.musashino-u.ac.jp",
+    description="A small package for MBTI compatibility",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/a-chon/MBTI",
@@ -20,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=["mbti-dictionary"],
+    py_modules=["MBTI-dictionary"],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
     entry_points={
