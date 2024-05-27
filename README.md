@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 作成したPyPI名
 MBTI-dictionary
 
